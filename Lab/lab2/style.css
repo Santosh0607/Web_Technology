@@ -1,43 +1,41 @@
-.add{
-    text-decoration: none;
-    border: solid 7px rgb(93, 218, 55);
-    background-color: rgb(93, 218, 55);
-    border-radius: 25px;
-    margin: 25px;
-    
-    color: white;
+.add {
+  text-decoration: none;
+  border: solid 7px rgb(93, 218, 55);
+  background-color: rgb(93, 218, 55);
+  border-radius: 25px;
+  margin: 25px;
 
+  color: white;
 }
 
+.button {
+  text-decoration: none;
+  border: solid 10px rgb(93, 218, 55);
+  background-color: rgb(93, 218, 55);
+  border-radius: 7px;
+  margin: 10px;
 
-.button{
-    text-decoration: none;
-    border: solid 10px rgb(93, 218, 55);
-    background-color: rgb(93, 218, 55);
-    border-radius: 7px;
-    margin: 10px;
-    
-    color: white;
+  color: white;
 }
-.button2{
-    text-decoration: none;
-    border: solid 10px rgb(228, 228, 228);
-    background-color: rgb(228, 228, 228);
-    border-radius: 7px;
-    margin: 10px;
-    
-    color: rgb(54, 49, 49);
+.button2 {
+  text-decoration: none;
+  border: solid 10px rgb(228, 228, 228);
+  background-color: rgb(228, 228, 228);
+  border-radius: 7px;
+  margin: 10px;
+
+  color: rgb(54, 49, 49);
 }
-.button3{
-    text-decoration: none;
-    border: solid 10px rgb(234, 32, 32);
-    background-color: rgb(234, 32, 32);
-    border-radius: 7px;
-    margin: 10px;
-    padding: 1px 1px;
-    color: white;
+.button3 {
+  text-decoration: none;
+  border: solid 10px rgb(234, 32, 32);
+  background-color: rgb(234, 32, 32);
+  border-radius: 7px;
+  margin: 10px;
+  padding: 1px 1px;
+  color: white;
 }
 
-div{
-    margin: 20px;
+div {
+  margin: 20px;
 }
