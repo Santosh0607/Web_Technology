@@ -2,4 +2,5 @@
 - Lab1 (website)- 4/30/2022
 - [Lab1 website Link](https://santosh0607.github.io/wt-lab-assignment/Lab/lab1/)
 - [Lab2 website Link](https://santosh0607.github.io/wt-lab-assignment/Lab/lab2/)
+- [Lab2 Border website Link](https://santosh0607.github.io/wt-lab-assignment/Lab/lab2/border)
 - [Lab3 website Link](https://santosh0607.github.io/wt-lab-assignment/Lab/lab3/)
