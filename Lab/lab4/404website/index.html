@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Style Css-->
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --primary: hsl(243, 71%, 56%);
+    --secondary: hsl(238, 74%, 91%);
+    --text: hsl(222, 5%, 49%);
+}
+
+
+.shift--30 {
+    margin-top: -10px;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+}
+
+.right {
+    float: left;
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: 'Ramabhadra', sans-serif;
+    color: var(--primary);
+}
+
+.left {
+    margin-left: 1rem;
+    float: right;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.buttons {
+    margin-top: 3.5rem;
+    font-size: 16px;
+}
+
+.buttons a {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color: rgb(219, 25, 25);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.fill {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.neg-fill {
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+.vertical {
+    border-left: 4px solid var(--text);
+    height: 70px;
+    position: absolute;
+    opacity: 20%;
+}
+.text {
+    color: black;
+    font-size: larger;
+    padding-left: 1rem;
+}
+.main {
+    font-weight: 840;
+    font-size: 3rem;
+    font-family: 'Ramabhadra', sans-serif;
+}
+.sec {
+    font-size: 1.3rem;
+    color: var(--text);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin-top: -7px;
+    display: block;
+    height: 10px;
+}
+
+
+</style>
+<body>
+    <body>
+        <div class="container">
+           <div class="content">
+               <div class="right">
+                   <div class="shift--30">404</div>
+                </div>
+         
+               <div class="left">
+                   <span class="vertical"></span>
+                   <div class="text shift--30">
+                       <div class="main">Page not found</div>
+                       <div class="sec">Please check the url in the address bar and try again.</div>
+                    </div>
+                    <div class="buttons">
+                        <a class="fill btn" href="#">Go back home</a>
+                        <a class="neg-fill btn" href="#">Contact Support</a>
+        
+                    </div>
+                </div>
+           </div>
+        </div>
+        </body>
+</body>
+</html>
