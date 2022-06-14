@@ -1,6 +1,3 @@
-function reset() {
-    location.reload(true);
-};
 
 function dragndrop() {
     
