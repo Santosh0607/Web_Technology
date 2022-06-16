@@ -1,0 +1,21 @@
+.container{
+    position: absolute;
+}
+#rect{
+    position: absolute;
+    background-color: rgba(182, 181, 181, 0.496);
+    width: 200px;
+    height: 200px;
+    border: 3px dotted #000;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#resize{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+}
