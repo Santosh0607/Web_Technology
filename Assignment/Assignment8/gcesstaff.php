@@ -58,7 +58,7 @@ for ($i = 0; $i <= 1; $i++) {
     foreach ($staff[$i] as $option => $content) {
         if ($i) {
             for ($k = 0; $k <= 1; $k++) {
-                echo "<tr bgcolor='#ff4d4d'>";
+                
                 $temp = $content[$k]["name"];
                 echo "<td>$temp</td>";
                 $test = is_array($content[$k]["subject"]) ? $test = "true" : $text = "false";
@@ -76,7 +76,7 @@ for ($i = 0; $i <= 1; $i++) {
             }
         } else {
             for ($k = 0; $k < 3; $k++) {
-                echo "<tr bgcolor='#33ff33'>";
+                
                 $temp = $content[$k]["name"];
                 echo "<td>$temp</td>";
                 $test = is_array($content[$k]["subject"]) ? $test = "true" : $text = "false";
