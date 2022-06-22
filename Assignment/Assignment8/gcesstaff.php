@@ -46,7 +46,7 @@ $staff = [
 // ....................Style...........................
 echo "<h1>Gandaki College of Engineering and Science</h1>";
 echo "<table border='1px solid black' cellspacing= '0px' cellpadding ='8px' width ='60%'>";
-echo "<tr bgcolor = 'blue' font-size='32px'>";
+echo "<tr bgcolor = 'white' font-size='32px'>";
 echo "<th>Name</th>";
 echo "<th>Acedemic</th>";
 echo "<th>Phone</th>";
