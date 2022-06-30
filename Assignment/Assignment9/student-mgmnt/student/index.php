@@ -76,8 +76,8 @@ $result = $conn->query($sql);
                 <td><?= $student['hobbies']?></td>
                 <td><?= $student['nationality']?></td>
                 <td>
-                    <a href="#">Edit</a>
-                    <a href="#">Delete</a>
+                <a href="#" data-id="<?= $students['id']; ?>" class="edit">edit</a>
+                <a href="#" data-id="<?= $students['id']; ?>" class="delete">delete</a>
                 </td>
             </tr>
             <?php
@@ -91,5 +91,47 @@ $result = $conn->query($sql);
             ?>
         </tbody>
     </table>
+
+
+    <script type="text/javascript">
+        const deleteEl = document.querySelectorAll(".delete");
+        for (el of deleteEl) {
+            el.addEventListener("click", deleteStudent);
+        }
+        const updateEl = document.querySelectorAll(".edit");
+        for (el of updateEl) {
+            el.addEventListener("click", editStudent);
+        }
+
+        function editStudent(event) {
+            const id = event.target.getAttribute('data-id');
+            let formEl = document.createElement("form");
+            formEl.setAttribute("method", "POST");
+            formEl.setAttribute("action", "./students/edit/");
+            let idEl = document.createElement("input");
+            idEl.setAttribute("type", "hidden");
+            idEl.setAttribute("name", "id");
+            idEl.setAttribute("value", id);
+            formEl.appendChild(idEl);
+            document.body.appendChild(formEl);
+            formEl.submit();
+        }
+
+
+        function deleteStudent(event) {
+            const id = event.target.getAttribute('data-id');
+            let formEl = document.createElement("form");
+            formEl.setAttribute("method", "POST");
+            formEl.setAttribute("action", "../student/delete");
+            let idEl = document.createElement("input");
+            idEl.setAttribute("type", "hidden");
+            idEl.setAttribute("name", "id");
+            idEl.setAttribute("value", id);
+            formEl.appendChild(idEl);
+            document.body.appendChild(formEl);
+            formEl.submit();
+        }
+    </script>
+
 </body>
 </html>

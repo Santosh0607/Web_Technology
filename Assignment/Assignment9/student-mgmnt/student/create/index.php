@@ -30,7 +30,7 @@
         </div>
         <div class="form-group">
             <label for="dob" >D.O.B</label>
-            <input type="date" id="dob" name="Date" name="dob" >
+            <input type="date" id="dob"  name="dob" >
             
         </div>
         <div class="form-group">
@@ -69,7 +69,7 @@
         </div>
         <div class="form-group">
             <label for="nationality" >Nationality</label>
-            <select>
+            <select name="nationality">
                 <option value="NP" >Nepal</option>
                 <option value="ID" >india</option>
                 <option value="Pk" >pakistan</option>

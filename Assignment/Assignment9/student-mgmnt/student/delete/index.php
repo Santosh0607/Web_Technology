@@ -1,9 +1,11 @@
 <?php
-$id = $_POST['id'];
-
-
-
 include "../../include/db.php";
+// $id = $_POST['id'];
+echo "<pre>";
+var_dump($_REQUEST);
+echo "</pre>";
+
+
 
 
 
